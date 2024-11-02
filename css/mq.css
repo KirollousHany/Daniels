@@ -1,19 +1,19 @@
-@media (max-width: 1200px) {
+@media (max-width: 75rem) {
 }
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
   html {
-    scroll-padding-top: 40px;
+    scroll-padding-top: 2.5rem;
   }
 
   .title h2 {
-    font-size: 30px !important;
-    margin: 0px auto 50px;
+    font-size: 1.875rem !important;
+    margin: 0rem auto 3.125rem;
   }
 
   /* Navbar */
   .navbar .container .navbar-nav .nav-link.active::after {
     width: 100%;
-    left: 0px;
+    left: 0rem;
   }
 
   .navbar ul {
@@ -37,44 +37,44 @@
     background-color: var(--dark-color);
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   section:not([id="home"]) {
-    padding-block: 60px 40px;
+    padding-block: 3.75rem 2.5rem;
   }
 
   .title h2 {
-    font-size: 30px !important;
-    margin: 0px auto 40px;
+    font-size: 1.875rem !important;
+    margin: 0rem auto 2.5rem;
   }
 
   /* Home Section */
   #home h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   #home p {
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 2.1875rem;
+    line-height: 3.125rem;
   }
 
   #home ul li {
-    width: 28px;
-    height: 28px;
-    line-height: 35px;
+    width: 1.75rem;
+    height: 1.75rem;
+    line-height: 2.1875rem;
   }
 
   #home ul li i {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   /* About Section */
   #about .image {
-    margin-bottom: 15px;
+    margin-bottom: .9375rem;
   }
 
   #about .image::after {
-    left: 10px;
-    bottom: -25px;
+    left: .625rem;
+    bottom: -1.5625rem;
   }
 
   #about .image img {
@@ -82,96 +82,96 @@
   }
 
   #about .caption {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
   }
 
   #about .caption header h2 {
-    font-size: 25px;
-    margin-bottom: 2px;
-    line-height: 20px;
+    font-size: 1.5625rem;
+    margin-bottom: .125rem;
+    line-height: 1.25rem;
   }
 
   #about .caption header span {
-    font-size: 12px;
-    letter-spacing: 1px;
-    margin-bottom: 13px;
-    line-height: 15px;
+    font-size: .75rem;
+    letter-spacing: .0625rem;
+    margin-bottom: .8125rem;
+    line-height: .9375rem;
   }
 
   #about .caption p {
-    font-size: 13px;
-    line-height: 24px;
+    font-size: .8125rem;
+    line-height: 1.5rem;
   }
 
   #about .skills {
-    margin-top: 20px;
+    margin-top: 1.25rem;
   }
 
   #about .skills .progress {
-    height: 23px;
+    height: 1.4375rem;
   }
 
   #about .skills .progress .progress-bar h6 {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   #about .skills .progress .progress-bar span {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   #about .buttons {
-    margin-top: 30px;
+    margin-top: 1.875rem;
   }
 
   #about .buttons .button {
-    padding: 10px 20px;
-    font-size: 13px;
+    padding: .625rem 1.25rem;
+    font-size: .8125rem;
   }
 
   /* Services Section */
   #services .container .item {
-    padding: 20px 14px;
+    padding: 1.25rem .875rem;
   }
 
   #services .container .item .icon {
-    width: 65px;
-    height: 65px;
+    width: 4.0625rem;
+    height: 4.0625rem;
   }
 
   #services .container .item .icon i {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   #services .container .item header h6 {
-    margin-block: 12px;
-    font-size: 17px;
+    margin-block: .75rem;
+    font-size: 1.0625rem;
   }
 
   #services .container .item p {
-    font-size: 13px;
-    line-height: 20px;
-    word-spacing: 1px;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    word-spacing: .0625rem;
   }
 
   /* Portfolio Section */
   #portfolio .nav-link {
-    font-size: 14px;
-    padding: 5px 9px;
+    font-size: .875rem;
+    padding: .3125rem .5625rem;
   }
 
   #portfolio .nav-pills .nav-link.active::after {
-    width: calc(100% - 18px);
-    left: 9px;
-    bottom: 2px;
+    width: calc(100% - 1.125rem);
+    left: .5625rem;
+    bottom: .125rem;
   }
 
   #portfolio .item .layer ul li {
-    width: 25px;
-    height: 25px;
+    width: 1.5625rem;
+    height: 1.5625rem;
   }
 
   #portfolio .item .layer ul li i {
-    font-size: 12px;
+    font-size: .75rem;
   }
 
   /* Testimonials Section */
@@ -180,13 +180,13 @@
   }
 
   #testimonials .container .carousel .carousel-inner .carousel-item .caption {
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   #testimonials .container .carousel .carousel-inner .carousel-item .caption p {
-    margin-block: 15px 20px;
-    font-size: 14px;
-    line-height: 20px;
+    margin-block: .9375rem 1.25rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
   }
 
   #testimonials
@@ -196,98 +196,98 @@
     .carousel-item
     .caption
     .h6 {
-    font-size: 15px;
-    margin-bottom: 2px;
+    font-size: .9375rem;
+    margin-bottom: .125rem;
   }
 
   /* Count Section*/
   #count .icon i {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
   #count span {
-    font-size: 25px;
-    line-height: 28px;
-    margin-block: 10px;
+    font-size: 1.5625rem;
+    line-height: 1.75rem;
+    margin-block: .625rem;
   }
 
   #count h4 {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: .8125rem;
+    line-height: 1.25rem;
   }
 
   /* Team Section*/
   #team .card .img .layer ul li {
-    width: 35px;
-    height: 35px;
+    width: 2.1875rem;
+    height: 2.1875rem;
   }
 
   #team .card .img .layer ul li a i {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
 
   #team .card .card-body h4 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
   }
 
   #team .card .card-body h5 {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 1rem;
+    line-height: 1.25rem;
   }
 
   /* Contact SECTION */
   #contact .container .info {
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
   }
 
   #contact .container .info .item .icon {
-    width: 45px;
-    height: 45px;
+    width: 2.8125rem;
+    height: 2.8125rem;
   }
 
   #contact .container .info .item .icon i {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   #contact .container .info .item header h6 {
-    font-size: 15px;
-    margin-block: 10px;
+    font-size: .9375rem;
+    margin-block: .625rem;
   }
 
   #contact .container .info .item p {
-    font-size: 14px;
+    font-size: .875rem;
   }
 
   #contact .container .form form input,
   #contact .container .form form textarea {
-    padding: 8px;
-    font-size: 12px;
+    padding: .5rem;
+    font-size: .75rem;
   }
 
   #contact .container .form form textarea {
-    height: 100px;
+    height: 6.25rem;
   }
 
   #contact .container .form form button {
-    padding: 8px 20px;
-    font-size: 13px;
+    padding: .5rem 1.25rem;
+    font-size: .8125rem;
   }
 
   footer {
-    padding: 20px;
+    padding: 1.25rem;
   }
 
   footer p {
-    font-size: 10px;
+    font-size: .625rem;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 36rem) {
   html {
-    scroll-padding-top: 20px;
+    scroll-padding-top: 1.25rem;
   }
   .title h2 {
-    font-size: 30px !important;
-    margin: 0px auto 30px;
+    font-size: 1.875rem !important;
+    margin: 0rem auto 1.875rem;
   }
 }
