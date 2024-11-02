@@ -1,0 +1,293 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+  html {
+    scroll-padding-top: 40px;
+  }
+
+  .title h2 {
+    font-size: 30px !important;
+    margin: 0px auto 50px;
+  }
+
+  /* Navbar */
+  .navbar .container .navbar-nav .nav-link.active::after {
+    width: 100%;
+    left: 0px;
+  }
+
+  .navbar ul {
+    align-items: center;
+    background-color: var(--white-color);
+  }
+
+  .navbar .container ul li {
+    width: fit-content;
+  }
+
+  .navbar .container ul li a {
+    color: var(--dark-color);
+  }
+
+  .navbar .container .navbar-nav .nav-link.active {
+    color: var(--dark-color);
+  }
+
+  .navbar .container .navbar-nav .nav-link::after {
+    background-color: var(--dark-color);
+  }
+}
+@media (max-width: 768px) {
+  section:not([id="home"]) {
+    padding-block: 60px 40px;
+  }
+
+  .title h2 {
+    font-size: 30px !important;
+    margin: 0px auto 40px;
+  }
+
+  /* Home Section */
+  #home h1 {
+    font-size: 30px;
+  }
+
+  #home p {
+    font-size: 35px;
+    line-height: 50px;
+  }
+
+  #home ul li {
+    width: 28px;
+    height: 28px;
+    line-height: 35px;
+  }
+
+  #home ul li i {
+    font-size: 12px;
+  }
+
+  /* About Section */
+  #about .image {
+    margin-bottom: 15px;
+  }
+
+  #about .image::after {
+    left: 10px;
+    bottom: -25px;
+  }
+
+  #about .image img {
+    width: 100%;
+  }
+
+  #about .caption {
+    margin-bottom: 30px;
+  }
+
+  #about .caption header h2 {
+    font-size: 25px;
+    margin-bottom: 2px;
+    line-height: 20px;
+  }
+
+  #about .caption header span {
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-bottom: 13px;
+    line-height: 15px;
+  }
+
+  #about .caption p {
+    font-size: 13px;
+    line-height: 24px;
+  }
+
+  #about .skills {
+    margin-top: 20px;
+  }
+
+  #about .skills .progress {
+    height: 23px;
+  }
+
+  #about .skills .progress .progress-bar h6 {
+    font-size: 12px;
+  }
+
+  #about .skills .progress .progress-bar span {
+    font-size: 12px;
+  }
+
+  #about .buttons {
+    margin-top: 30px;
+  }
+
+  #about .buttons .button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+
+  /* Services Section */
+  #services .container .item {
+    padding: 20px 14px;
+  }
+
+  #services .container .item .icon {
+    width: 65px;
+    height: 65px;
+  }
+
+  #services .container .item .icon i {
+    font-size: 22px;
+  }
+
+  #services .container .item header h6 {
+    margin-block: 12px;
+    font-size: 17px;
+  }
+
+  #services .container .item p {
+    font-size: 13px;
+    line-height: 20px;
+    word-spacing: 1px;
+  }
+
+  /* Portfolio Section */
+  #portfolio .nav-link {
+    font-size: 14px;
+    padding: 5px 9px;
+  }
+
+  #portfolio .nav-pills .nav-link.active::after {
+    width: calc(100% - 18px);
+    left: 9px;
+    bottom: 2px;
+  }
+
+  #portfolio .item .layer ul li {
+    width: 25px;
+    height: 25px;
+  }
+
+  #portfolio .item .layer ul li i {
+    font-size: 12px;
+  }
+
+  /* Testimonials Section */
+  #testimonials .container .carousel {
+    width: 100%;
+  }
+
+  #testimonials .container .carousel .carousel-inner .carousel-item .caption {
+    margin-bottom: 60px;
+  }
+
+  #testimonials .container .carousel .carousel-inner .carousel-item .caption p {
+    margin-block: 15px 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #testimonials
+    .container
+    .carousel
+    .carousel-inner
+    .carousel-item
+    .caption
+    .h6 {
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+
+  /* Count Section*/
+  #count .icon i {
+    font-size: 25px;
+  }
+
+  #count span {
+    font-size: 25px;
+    line-height: 28px;
+    margin-block: 10px;
+  }
+
+  #count h4 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  /* Team Section*/
+  #team .card .img .layer ul li {
+    width: 35px;
+    height: 35px;
+  }
+
+  #team .card .img .layer ul li a i {
+    font-size: 19px;
+  }
+
+  #team .card .card-body h4 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  #team .card .card-body h5 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /* Contact SECTION */
+  #contact .container .info {
+    margin-bottom: 25px;
+  }
+
+  #contact .container .info .item .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  #contact .container .info .item .icon i {
+    font-size: 20px;
+  }
+
+  #contact .container .info .item header h6 {
+    font-size: 15px;
+    margin-block: 10px;
+  }
+
+  #contact .container .info .item p {
+    font-size: 14px;
+  }
+
+  #contact .container .form form input,
+  #contact .container .form form textarea {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  #contact .container .form form textarea {
+    height: 100px;
+  }
+
+  #contact .container .form form button {
+    padding: 8px 20px;
+    font-size: 13px;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 576px) {
+  html {
+    scroll-padding-top: 20px;
+  }
+  .title h2 {
+    font-size: 30px !important;
+    margin: 0px auto 30px;
+  }
+}
